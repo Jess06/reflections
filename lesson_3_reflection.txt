@@ -11,19 +11,21 @@ Because you could choose which branch you want to pull and not always will be th
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+Forks are made gitHub-to-gitHub nothing is copied to my PC and it will update when you make a push.
+Clone means that you copy a repo from github onto your computer, this means that it will be locally stored.
+Branches allow you to preserve the main code, make a copy and then you could work within that new branch.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+The benefit is that you can have a "backup" if something bad occurs to the remote repository.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
-
-    Fill in your answer here
+ 
+I think it will be harder to put together all changes that a team work make into the same project, git makes that thing easier.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+When I making tests for example o when I'm experimenting with a new functionallity an I don't know if that really is going to work so I make sure that the actual project that is working will continue working correctly.
