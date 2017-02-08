@@ -10,13 +10,25 @@ It is different because in the working diectory you have all the files you have 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+You could use the command git diff to make sure what changes have been done between the working project and the staging area or with re repository.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+When you want to make some experiments in your project without risking the actual project that is working well. So, with branches you could have differents states of the project without altering the stable one.
+Of that way you could have a mor organizated project.
+
 How do the diagrams help you visualize the branch structure?
+
+They help because you can see the flow of the commits that have had a project. So, you can know where a new branch was created.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The result is that the files of the branches will add the lines that the other one doesn't have. So, the final project should be up to date with all the modifications.
+In the diagram it the branch coins and master will turn into master branch only.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+When you do it manually you can determinate what yo want to conserve but when is an automatically merge git jus let you know that something its wrong and you have to notice which part conserve. The good thing is that git tells you where the conflict is.
